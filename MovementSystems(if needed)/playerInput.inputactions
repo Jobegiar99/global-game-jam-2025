@@ -1,0 +1,87 @@
+{
+    "name": "playerInput",
+    "maps": [
+        {
+            "name": "CharacterControls",
+            "id": "ef541eb3-bab9-4165-9569-a871b652b701",
+            "actions": [
+                {
+                    "name": "movement",
+                    "type": "Button",
+                    "id": "11f972dd-fe32-4a5e-9763-24954caefdce",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Run",
+                    "type": "Button",
+                    "id": "b170f7c3-4e46-45c3-9166-90e9e59a7e6f",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "2deb73f9-5356-41a1-b1d5-01fe33e29636",
+                    "path": "<Keyboard>/w",
+                    "interactions": "Press(behavior=2)",
+                    "processors": "",
+                    "groups": "",
+                    "action": "movement",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "94c29710-e212-4035-98ec-886e91d9ec8f",
+                    "path": "<Keyboard>/s",
+                    "interactions": "Press(behavior=2)",
+                    "processors": "",
+                    "groups": "",
+                    "action": "movement",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "05fa8463-7178-4b1d-852b-c194478ea478",
+                    "path": "<Keyboard>/a",
+                    "interactions": "Press(behavior=2)",
+                    "processors": "",
+                    "groups": "",
+                    "action": "movement",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "3b39da32-e90d-405b-be1e-404ea4ad9ddc",
+                    "path": "<Keyboard>/d",
+                    "interactions": "Press(behavior=2)",
+                    "processors": "",
+                    "groups": "",
+                    "action": "movement",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "5e834547-8182-4874-84d6-1ae7b8b985f6",
+                    "path": "<Keyboard>/leftShift",
+                    "interactions": "Press(behavior=2)",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Run",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
